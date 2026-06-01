@@ -2,17 +2,13 @@
 
 This folder collects LTX video prompt experiments, prompt-writing notes, and generated video outputs.
 
-Open this README in a Markdown preview that supports local HTML video playback to watch the generated clips inline. If a video does not render in your viewer, use the direct file links below each preview.
+Open this README on GitHub to watch animated GIF previews inline. Click any preview to open the full MP4 video.
 
 ## Generated Videos
 
 ### Video 1: Neon Motorcycle Racer
 
-<video src="./src/1.mp4" controls width="100%">
-  Your browser does not support embedded videos. Open `./src/1.mp4` directly.
-</video>
-
-[Open video file](./src/1.mp4)
+[<img src="./src/1.gif" width="100%" alt="Video 1: Neon Motorcycle Racer preview">](./src/1.mp4)
 
 **Prompt**
 
@@ -22,11 +18,7 @@ A charismatic female racer in a black leather suit stands beside a futuristic mo
 
 ### Video 2: Anime Sword Attack
 
-<video src="./src/2.mp4" controls width="100%">
-  Your browser does not support embedded videos. Open `./src/2.mp4` directly.
-</video>
-
-[Open video file](./src/2.mp4)
+[<img src="./src/2.gif" width="100%" alt="Video 2: Anime Sword Attack preview">](./src/2.mp4)
 
 **Prompt**
 
@@ -36,11 +28,7 @@ Use the provided image as the exact first frame. The character continues his swo
 
 ### Video 3: 1970s Office Bullet Time
 
-<video src="./src/3.mp4" controls width="100%">
-  Your browser does not support embedded videos. Open `./src/3.mp4` directly.
-</video>
-
-[Open video file](./src/3.mp4)
+[<img src="./src/3.gif" width="100%" alt="Video 3: 1970s Office Bullet Time preview">](./src/3.mp4)
 
 **Prompt**
 
@@ -85,31 +73,19 @@ Pure suspended comedic chaos in ultra slow-motion bullet time, based exactly on 
 
 ### Video 4
 
-<video src="./src/4.mp4" controls width="100%">
-  Your browser does not support embedded videos. Open `./src/4.mp4` directly.
-</video>
-
-[Open video file](./src/4.mp4)
+[<img src="./src/4.gif" width="100%" alt="Video 4 preview">](./src/4.mp4)
 
 Prompt not documented yet.
 
 ### Video 5
 
-<video src="./src/5.mp4" controls width="100%">
-  Your browser does not support embedded videos. Open `./src/5.mp4` directly.
-</video>
-
-[Open video file](./src/5.mp4)
+[<img src="./src/5.gif" width="100%" alt="Video 5 preview">](./src/5.mp4)
 
 Prompt not documented yet.
 
 ### Video 6
 
-<video src="./src/6.mp4" controls width="100%">
-  Your browser does not support embedded videos. Open `./src/6.mp4` directly.
-</video>
-
-[Open video file](./src/6.mp4)
+[<img src="./src/6.gif" width="100%" alt="Video 6 preview">](./src/6.mp4)
 
 Prompt not documented yet.
 
@@ -161,25 +137,4 @@ The camera performs [subtle orbit/parallax/push].
 No sudden motion, no impact, no scene change, no camera cut.
 ```
 
-## File Structure
 
-```text
-.
-|-- README.md
-|-- prompt_guide.txt
-|-- video-prompts.txt
-`-- src/
-    |-- 1.mp4
-    |-- 2.mp4
-    |-- 3.mp4
-    |-- 4.mp4
-    |-- 5.mp4
-    `-- 6.mp4
-```
-
-## Notes
-
-- Keep video filenames stable if they are referenced from this README.
-- Add new generated videos to `src/` and copy one of the gallery sections above.
-- Store the matching prompt next to each generated video so results are easy to compare and reproduce.
-- Some hosted Markdown renderers restrict local video playback. The direct links remain available even when inline playback is disabled.
